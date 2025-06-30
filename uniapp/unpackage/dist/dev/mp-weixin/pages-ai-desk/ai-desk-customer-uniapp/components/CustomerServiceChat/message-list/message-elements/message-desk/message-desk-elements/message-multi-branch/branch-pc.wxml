@@ -1,0 +1,1 @@
+<view class="form-branch-container"><view wx:if="{{a}}" class="{{['card-title-container', c]}}">{{b}}</view><block wx:if="{{d}}"><view wx:for="{{e}}" wx:for-item="item" wx:key="b" class="{{['form-branch-item', item.c]}}" bindtap="{{item.d}}">{{item.a}}</view></block></view>

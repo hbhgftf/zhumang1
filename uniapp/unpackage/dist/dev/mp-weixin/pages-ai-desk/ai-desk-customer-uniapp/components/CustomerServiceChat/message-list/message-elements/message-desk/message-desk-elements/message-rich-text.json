@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mp-html": "../../../../../common/RichText/dist/uni-app/components/mp-html/mp-html"
+  }
+}

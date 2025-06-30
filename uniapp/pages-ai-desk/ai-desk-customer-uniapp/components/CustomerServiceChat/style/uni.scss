@@ -1,0 +1,12 @@
+.tui-chat-uni {
+  &-message-input {
+    max-height: 70px;
+  }
+  &-message-input-hide{
+    display: none;
+  }
+
+  &-message-input-toolbar {
+    z-index: 100;
+  }
+}

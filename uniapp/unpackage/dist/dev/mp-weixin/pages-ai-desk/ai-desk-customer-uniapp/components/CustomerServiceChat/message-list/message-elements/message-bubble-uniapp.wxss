@@ -1,0 +1,235 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-0a47cd8c:not(not) {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.flex-row.data-v-0a47cd8c {
+  display: flex;
+}
+.reverse.data-v-0a47cd8c {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.message-bubble.data-v-0a47cd8c {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.message-bubble.multiple-selected.data-v-0a47cd8c {
+  background-color: #f0f0f0;
+}
+.message-bubble .multiple-select-radio.data-v-0a47cd8c {
+  margin-right: 12px;
+  flex: 0 0 auto;
+}
+.message-bubble .control-reverse.data-v-0a47cd8c {
+  flex: 1 1 auto;
+  flex-direction: row-reverse;
+}
+.message-bubble .message-bubble-main-content.data-v-0a47cd8c {
+  display: flex;
+  flex-direction: row;
+}
+.message-bubble .message-bubble-main-content .message-avatar.data-v-0a47cd8c {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  flex: 0 0 auto;
+}
+.message-bubble .message-bubble-main-content .message-body.data-v-0a47cd8c {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 8px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-nick-name.data-v-0a47cd8c {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: #999;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main.data-v-0a47cd8c {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main-reverse.data-v-0a47cd8c {
+  flex-direction: row-reverse;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .audio-unplay-mark.data-v-0a47cd8c {
+  flex: 0 0 auto;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #f00;
+  margin: 5px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-body-content.data-v-0a47cd8c {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  word-break: break-all;
+  position: relative;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-body-content .content-main.data-v-0a47cd8c {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-content: flex-start;
+  border: 0 solid black;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-body-content .content-main .message-risk-replace.data-v-0a47cd8c {
+  width: 130px;
+  height: 130px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-body-content .content-has-risk-tips.data-v-0a47cd8c {
+  font-size: 12px;
+  color: #fa5151;
+  font-family: PingFangSC-Regular;
+  margin-top: 5px;
+  border-top: 1px solid #e5c7c7;
+  padding-top: 5px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .content-in.data-v-0a47cd8c {
+  background: #ffffff;
+  border-radius: 0 10px 10px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .product-order-message-bubble.data-v-0a47cd8c {
+  background: #ffffff !important;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .content-out.data-v-0a47cd8c {
+  color: #fff;
+  background: linear-gradient(26deg, #1C66E5 2.07%, #03C8FD 152.75%);
+  border-radius: 10px 0 10px 10px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .multi-branch-message.data-v-0a47cd8c {
+  background-color: transparent;
+  border-radius: 0 10px 10px;
+  padding: 0px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .content-no-padding.data-v-0a47cd8c {
+  padding: 0;
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .content-no-padding.content-has-risk.data-v-0a47cd8c {
+  padding: 12px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .content-has-risk.data-v-0a47cd8c {
+  background: rgba(250, 81, 81, 0.16);
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .blink-shadow.data-v-0a47cd8c {
+  box-shadow: rgba(255, 156, 25, 0) 0 0 10px 0;
+  animation: shadow-blink-0a47cd8c 1s linear 3;
+}
+@keyframes shadow-blink-0a47cd8c {
+50% {
+    box-shadow: #ff9c19 0 0 10px 0;
+}
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .blink-content.data-v-0a47cd8c {
+  animation: reference-blink-0a47cd8c 1s linear 3;
+}
+@keyframes reference-blink-0a47cd8c {
+50% {
+    background-color: #ff9c19;
+}
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-label.data-v-0a47cd8c {
+  align-self: flex-end;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #b6b8ba;
+  word-break: keep-all;
+  flex: 0 0 auto;
+  margin: 0 8px;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-label.fail.data-v-0a47cd8c {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: red;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .message-label.loading-circle.data-v-0a47cd8c {
+  opacity: 0;
+  animation: circle-loading-0a47cd8c 2s linear 1s infinite;
+}
+@keyframes circle-loading-0a47cd8c {
+0% {
+    transform: rotate(0);
+    opacity: 1;
+}
+100% {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+}
+.message-bubble .message-bubble-main-content .message-body .message-body-main .align-self-bottom.data-v-0a47cd8c {
+  align-self: flex-end;
+}
+.message-bubble .reverse.data-v-0a47cd8c {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.message-bubble .message-bubble-extra-content.data-v-0a47cd8c {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,43 @@
+.toolbar-button-container {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 10px !important;
+  flex: none;
+  align-items: center;
+  overflow-x: auto; /* 允许横向滚动 */
+  scrollbar-width: none; /* Firefox 隐藏滚动条 */
+  -ms-overflow-style: none; /* IE/Edge 隐藏滚动条 */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome 隐藏滚动条 */
+  }
+}
+
+.toolbar-button {
+  border: 1px solid #E7EAEF;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  white-space: nowrap;
+  background-color: #fff;
+  user-select: none;
+}
+
+.toolbar-button-h5 {
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(70, 98, 140, 0.06);
+}
+
+.toolbar-button-icon {
+  margin-right: 3px;
+}
+.toolbar-button-text {
+  font-size: 12px;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  overflow: hidden;
+  font-family: PingFangSC-Regular;
+}

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon": "../../../../common/Icon",
+    "message-container": "./message-container",
+    "message-record": "../message-record/index"
+  }
+}

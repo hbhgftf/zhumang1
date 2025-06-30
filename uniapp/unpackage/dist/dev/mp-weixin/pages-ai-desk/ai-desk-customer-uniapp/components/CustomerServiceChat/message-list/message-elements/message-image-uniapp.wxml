@@ -1,0 +1,1 @@
+<view class="image-container data-v-af89fe5b" bindtap="{{e}}"><image class="message-image data-v-af89fe5b" mode="aspectFit" src="{{a}}" style="{{'width:' + b + ';' + ('height:' + c)}}" bindload="{{d}}"/></view>

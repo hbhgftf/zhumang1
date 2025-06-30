@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "message-plugin-layout": "./message-plugin-layout-uniapp",
+    "message-customer-service": "./message-desk-elements/message-desk"
+  }
+}

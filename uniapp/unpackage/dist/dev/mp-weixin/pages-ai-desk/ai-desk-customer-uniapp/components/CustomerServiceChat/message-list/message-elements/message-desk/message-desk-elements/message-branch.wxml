@@ -1,0 +1,1 @@
+<view class="branch-card"><view wx:if="{{a}}" class="{{['branch-body', d]}}"><icon wx:if="{{b}}" class="branch-title-icon" u-i="7e2e2fcc-0" bind:__l="__l" u-p="{{b}}"/> {{c}}</view><view wx:for="{{e}}" wx:for-item="item" wx:key="b" class="{{['branch-body', f, 'branch-item', g, item.c]}}" style="{{'border-width:' + h}}" bindtap="{{item.d}}">{{item.a}}</view></view>

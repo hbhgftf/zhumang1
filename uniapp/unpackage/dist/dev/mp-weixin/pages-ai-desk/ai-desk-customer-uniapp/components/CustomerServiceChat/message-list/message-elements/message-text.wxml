@@ -1,0 +1,1 @@
+<view class="{{['data-v-d1e23efb', 'message-text-container']}}"><label wx:for="{{a}}" wx:for-item="item" wx:key="e" class="data-v-d1e23efb"><label wx:if="{{item.a}}" class="text data-v-d1e23efb">{{item.b}}</label><image wx:else class="emoji data-v-d1e23efb" src="{{item.c}}" alt="{{item.d}}"></image></label></view>

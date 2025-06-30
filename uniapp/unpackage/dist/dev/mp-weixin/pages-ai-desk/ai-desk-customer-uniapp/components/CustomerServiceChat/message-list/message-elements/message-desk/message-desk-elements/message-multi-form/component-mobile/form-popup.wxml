@@ -1,0 +1,1 @@
+<bottom-popup wx:if="{{c}}" u-s="{{['d']}}" class="form-item-bottom-popup" bindonClose="{{a}}" bindonSubmit="{{b}}" u-i="634ea13e-0" bind:__l="__l" u-p="{{c}}"><slot></slot></bottom-popup>

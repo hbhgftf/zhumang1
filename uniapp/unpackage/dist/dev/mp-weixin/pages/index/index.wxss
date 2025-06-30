@@ -1,0 +1,201 @@
+
+/* 全局容器样式 */
+.container.data-v-1cf27b2a {
+  background: #f8f9fa;
+  min-height: 100vh;
+  padding: 30rpx;
+}
+
+/* 语音控制区域 */
+.voice-control.data-v-1cf27b2a {
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.voice-btns.data-v-1cf27b2a {
+  display: flex;
+  gap: 20rpx;
+  margin-top: 20rpx;
+}
+.voice-btn.data-v-1cf27b2a {
+  flex: 1;
+  height: 88rpx;
+  background: #4CAF50;
+  color: white;
+  border-radius: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  transition: all 0.3s ease;
+  border: none;
+}
+.voice-btn.data-v-1cf27b2a:active {
+  transform: scale(0.98);
+  background: #43A047;
+}
+
+/* 常见问题区域 */
+.faq-section.data-v-1cf27b2a {
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.section-title.data-v-1cf27b2a {
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30rpx;
+  position: relative;
+  padding-left: 24rpx;
+}
+.section-title.data-v-1cf27b2a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8rpx;
+  height: 32rpx;
+  background: #4CAF50;
+  border-radius: 4rpx;
+}
+.faq-item.data-v-1cf27b2a {
+  background: #ffffff;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+  border: 2rpx solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+.faq-item.data-v-1cf27b2a:active {
+  transform: scale(0.99);
+}
+.question-block.data-v-1cf27b2a {
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-text.data-v-1cf27b2a {
+  font-size: 30rpx;
+  color: #333333;
+  font-weight: 500;
+  flex: 1;
+  margin-right: 20rpx;
+}
+.arrow.data-v-1cf27b2a {
+  width: 20rpx;
+  height: 20rpx;
+  border-right: 3rpx solid #666;
+  border-bottom: 3rpx solid #666;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+.arrow.expanded.data-v-1cf27b2a {
+  transform: rotate(135deg);
+}
+.answer-block.data-v-1cf27b2a {
+  padding: 30rpx;
+  background: #f5f5f5;
+  color: #666666;
+  font-size: 28rpx;
+  line-height: 1.6;
+  border-top: 2rpx solid #e0e0e0;
+  animation: slideDown-1cf27b2a 0.3s ease;
+}
+
+/* 联系客服区域 */
+.contact-section.data-v-1cf27b2a {
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+  margin-top: 30rpx; /* Adjusted margin */
+}
+.contact-btn.data-v-1cf27b2a {
+  width: 100%;
+  height: 88rpx;
+  margin: 20rpx 0; /* Adjusted margin */
+  background: #2196F3;
+  color: white;
+  border-radius: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  transition: all 0.3s ease;
+  border: none;
+}
+.contact-btn.data-v-1cf27b2a:active {
+  transform: scale(0.98);
+  background: #1976D2;
+}
+.btn-icon.data-v-1cf27b2a {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+
+/* 动画效果 */
+@keyframes slideDown-1cf27b2a {
+from {
+    opacity: 0;
+    transform: translateY(-10rpx);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+/* 无障碍焦点状态 */
+button.data-v-1cf27b2a:focus, navigator.data-v-1cf27b2a:focus {
+  outline: 4rpx solid #4CAF50;
+  outline-offset: 2rpx;
+}
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+.container.data-v-1cf27b2a,
+  .voice-control.data-v-1cf27b2a,
+  .faq-section.data-v-1cf27b2a,
+  .contact-section.data-v-1cf27b2a {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+.section-title.data-v-1cf27b2a {
+    color: #e0e0e0;
+}
+.faq-item.data-v-1cf27b2a {
+    border-color: #333333;
+}
+.question-text.data-v-1cf27b2a {
+    color: #e0e0e0;
+}
+.arrow.data-v-1cf27b2a {
+    border-right-color: #999;
+    border-bottom-color: #999;
+}
+.answer-block.data-v-1cf27b2a {
+    background: #2d2d2d;
+    color: #bbbbbb;
+    border-top-color: #333333;
+}
+.voice-btn.data-v-1cf27b2a {
+    background: #388E3C;
+}
+.voice-btn.data-v-1cf27b2a:active {
+    background: #2E7D32;
+}
+.contact-btn.data-v-1cf27b2a {
+    background: #1565C0;
+}
+.contact-btn.data-v-1cf27b2a:active {
+    background: #0D47A1;
+}
+}

@@ -1,0 +1,1 @@
+<view class="form-input-box-mobile"><label-mobile wx:if="{{a}}" u-i="f7222afa-0" bind:__l="__l" u-p="{{a}}"/><view class="form-input-line"><input class="form-input-mobile" placeholder="{{b}}" bindinput="{{c}}" value="{{d}}"></input><view wx:if="{{e}}" class="validator-line">{{f}}</view></view></view>

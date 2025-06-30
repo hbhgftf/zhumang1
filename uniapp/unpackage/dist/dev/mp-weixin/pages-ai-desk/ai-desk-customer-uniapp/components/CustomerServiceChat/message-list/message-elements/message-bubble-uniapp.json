@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon": "../../../common/Icon",
+    "read-status": "./read-status/index",
+    "message-quote": "./message-quote/index-uniapp",
+    "avatar": "../../../common/Avatar/index"
+  }
+}

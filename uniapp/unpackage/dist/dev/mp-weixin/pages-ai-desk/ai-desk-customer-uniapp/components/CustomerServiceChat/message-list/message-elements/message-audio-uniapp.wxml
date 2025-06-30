@@ -1,0 +1,1 @@
+<view class="{{['data-v-a15eca10', 'message-audio', e && 'reserve']}}" bindtap="{{f}}"><view class="audio-icon-container data-v-a15eca10"><icon wx:if="{{b}}" class="{{['data-v-a15eca10', 'icon', a && 'play']}}" u-i="a15eca10-0" bind:__l="__l" u-p="{{b}}"/></view><view class="time data-v-a15eca10" style="{{'width:' + d}}">{{c}} " </view></view>

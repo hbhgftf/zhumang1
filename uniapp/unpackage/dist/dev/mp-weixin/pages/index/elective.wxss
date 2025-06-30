@@ -1,0 +1,105 @@
+
+/* ========== 核心视觉样式 ========== */
+/* 容器样式 */
+.volunteer-container.data-v-8424e307 {
+  padding: 30rpx;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* 注册部分样式 */
+.register-section.data-v-8424e307 {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 40rpx 30rpx;
+  text-align: center;
+  margin-top: 100rpx;
+}
+.register-header.data-v-8424e307 {
+  margin-bottom: 40rpx;
+}
+.register-title.data-v-8424e307 {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 20rpx;
+}
+.register-subtitle.data-v-8424e307 {
+  font-size: 28rpx;
+  color: #666;
+}
+.register-btn.data-v-8424e307 {
+  background: #1AAD19;
+  color: white;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  padding: 20rpx 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4rpx 12rpx rgba(26, 173, 25, 0.2);
+}
+
+/* 状态栏 */
+.status-bar.data-v-8424e307 {
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 16rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.08);
+}
+.status-title.data-v-8424e307 {
+  font-size: 36rpx;
+  color: #333;
+  margin-right: 30rpx;
+}
+
+/* 替换 .mock-switch 的样式 */
+.status-switch.data-v-8424e307 {
+  /* uni-switch 默认样式已经很好，这里可以只调整边距或尺寸 */
+  transform: scale(0.9); /* 微调大小 */
+  margin-right: 10rpx; /* 调整与文本的间距 */
+}
+.status-text.data-v-8424e307 {
+  font-size: 28rpx;
+  color: #666;
+}
+
+/* 服务标签 */
+.tag-container.data-v-8424e307 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rpx;
+  margin-top: 20rpx;
+}
+.mock-tag.data-v-8424e307 {
+  padding: 16rpx 32rpx;
+  border: 2rpx solid #eee;
+  border-radius: 40rpx;
+  font-size: 28rpx;
+}
+.mock-tag.active.data-v-8424e307 {
+  background: #e6f7ff;
+  border-color: #1890ff;
+  color: #1890ff;
+}
+
+/* 任务列表 */
+.mock-task.data-v-8424e307 {
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 20rpx;
+}
+.mock-task.urgent.data-v-8424e307 {
+  border-left: 8rpx solid #ff4d4f;
+}
+.mock-btn.data-v-8424e307 {
+  background: #1AAD19;
+  color: white;
+  border-radius: 40rpx;
+  padding: 16rpx 40rpx;
+  text-align: center;
+}

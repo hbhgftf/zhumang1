@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "rating-star": "./message-rating-star",
+    "rating-number": "./message-rating-number"
+  }
+}

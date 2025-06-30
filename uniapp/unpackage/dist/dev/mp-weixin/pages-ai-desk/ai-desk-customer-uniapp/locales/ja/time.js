@@ -1,0 +1,19 @@
+"use strict";
+const Time = {
+  "周": "週",
+  "天": "日",
+  "小时": "時間",
+  "分钟": "分",
+  "刚刚": "たった今",
+  "前": "前",
+  "昨天": "昨日",
+  "星期一": "月曜日",
+  "星期二": "火曜日",
+  "星期三": "水曜日",
+  "星期四": "木曜日",
+  "星期五": "金曜日",
+  "星期六": "土曜日",
+  "星期日": "日曜日"
+};
+exports.Time = Time;
+//# sourceMappingURL=../../../../../.sourcemap/mp-weixin/pages-ai-desk/ai-desk-customer-uniapp/locales/ja/time.js.map

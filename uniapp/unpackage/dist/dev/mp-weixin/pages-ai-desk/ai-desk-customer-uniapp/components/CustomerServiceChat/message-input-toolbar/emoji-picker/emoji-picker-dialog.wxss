@@ -1,0 +1,144 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+body.data-v-28fc796a, div.data-v-28fc796a, ul.data-v-28fc796a, ol.data-v-28fc796a, dt.data-v-28fc796a, dd.data-v-28fc796a, li.data-v-28fc796a, dl.data-v-28fc796a, h1.data-v-28fc796a, h2.data-v-28fc796a, h3.data-v-28fc796a, h4.data-v-28fc796a, p.data-v-28fc796a {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  /* font:12px/22px"\5B8B\4F53",Arial,Helvetica,sans-serif; */
+}
+ol.data-v-28fc796a, ul.data-v-28fc796a, li.data-v-28fc796a {
+  list-style: none;
+}
+img.data-v-28fc796a {
+  border: 0;
+  vertical-align: middle;
+  pointer-events: none;
+}
+body.data-v-28fc796a {
+  color: #000;
+  background: #FFF;
+}
+.clear.data-v-28fc796a {
+  clear: both;
+  height: 1px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -1px;
+}
+a.data-v-28fc796a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.data-v-28fc796a:hover {
+  text-decoration: none;
+}
+input.data-v-28fc796a, textarea.data-v-28fc796a {
+  -webkit-user-select: auto;
+          user-select: auto;
+}
+input.data-v-28fc796a:focus, input.data-v-28fc796a:active, textarea.data-v-28fc796a:focus, textarea.data-v-28fc796a:active {
+  outline: none;
+}
+.chat-aside.data-v-28fc796a {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  box-sizing: border-box;
+  width: 360px !important;
+  border-radius: 8px 0 0 8px;
+  z-index: 9999;
+  max-height: calc(100% - 50px);
+}
+.emoji-picker.data-v-28fc796a {
+  width: 405px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.emoji-picker-list.data-v-28fc796a {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  margin: 2px;
+}
+.emoji-picker-list.data-v-28fc796a::-webkit-scrollbar {
+  display: none;
+}
+.emoji-picker-list-item.data-v-28fc796a {
+  cursor: pointer;
+  padding: 5px;
+}
+.emoji-picker-list-item .emoji.data-v-28fc796a {
+  width: 30px;
+  height: 30px;
+}
+.emoji-picker-list-item .emoji-big.data-v-28fc796a {
+  width: 70px;
+  height: 70px;
+}
+.emoji-picker-tab.data-v-28fc796a {
+  display: flex;
+  align-items: center;
+}
+.emoji-picker-tab-item.data-v-28fc796a {
+  padding: 0 10px;
+  cursor: pointer;
+}
+.emoji-picker-tab-item .icon.data-v-28fc796a {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+.emoji-picker-tab-item .icon-big.data-v-28fc796a {
+  margin: 2px 0;
+  width: 30px;
+  height: 30px;
+}
+.emoji-picker-h5.data-v-28fc796a {
+  width: 100%;
+}
+.emoji-picker-h5-list.data-v-28fc796a {
+  justify-content: space-between;
+}
+.emoji-picker-h5-list.data-v-28fc796a::after {
+  content: "";
+  display: block;
+  flex: 1 1 auto;
+}
+.emoji-picker-h5 .send-btn.data-v-28fc796a {
+  width: 50px;
+  height: 30px;
+  background-color: #1c66e5;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: auto;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}

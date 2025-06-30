@@ -1,0 +1,1 @@
+<view class="progress-message data-v-1f515871"><slot/><view wx:if="{{a}}" class="progress-container data-v-1f515871"><progress activeColor="#006EFF" class="progress-common data-v-1f515871" percent="{{b}}"/></view></view>

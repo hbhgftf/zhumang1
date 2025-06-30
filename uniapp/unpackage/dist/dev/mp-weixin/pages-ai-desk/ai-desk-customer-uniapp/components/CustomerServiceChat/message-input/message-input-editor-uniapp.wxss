@@ -1,0 +1,102 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+body.data-v-00dab55f, div.data-v-00dab55f, ul.data-v-00dab55f, ol.data-v-00dab55f, dt.data-v-00dab55f, dd.data-v-00dab55f, li.data-v-00dab55f, dl.data-v-00dab55f, h1.data-v-00dab55f, h2.data-v-00dab55f, h3.data-v-00dab55f, h4.data-v-00dab55f, p.data-v-00dab55f {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  /* font:12px/22px"\5B8B\4F53",Arial,Helvetica,sans-serif; */
+}
+ol.data-v-00dab55f, ul.data-v-00dab55f, li.data-v-00dab55f {
+  list-style: none;
+}
+img.data-v-00dab55f {
+  border: 0;
+  vertical-align: middle;
+  pointer-events: none;
+}
+body.data-v-00dab55f {
+  color: #000;
+  background: #FFF;
+}
+.clear.data-v-00dab55f {
+  clear: both;
+  height: 1px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -1px;
+}
+a.data-v-00dab55f {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.data-v-00dab55f:hover {
+  text-decoration: none;
+}
+input.data-v-00dab55f, textarea.data-v-00dab55f {
+  -webkit-user-select: auto;
+          user-select: auto;
+}
+input.data-v-00dab55f:focus, input.data-v-00dab55f:active, textarea.data-v-00dab55f:focus, textarea.data-v-00dab55f:active {
+  outline: none;
+}
+.chat-aside.data-v-00dab55f {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  box-sizing: border-box;
+  width: 360px !important;
+  border-radius: 8px 0 0 8px;
+  z-index: 9999;
+  max-height: calc(100% - 50px);
+}
+.message-input-container.data-v-00dab55f {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 3px 10px 10px;
+  overflow: hidden;
+}
+.message-input-container-h5.data-v-00dab55f {
+  flex: 1;
+  height: auto;
+  background: #fff;
+  border-radius: 10px 0 0 10px;
+  padding: 7px 0 7px 10px;
+  font-size: 16px !important;
+  max-height: 86px;
+}
+.message-input-container .message-input-area.data-v-00dab55f {
+  flex: 1;
+  overflow-y: hidden;
+  min-height: 25px;
+}
+.message-input-container .message-input-mute.data-v-00dab55f {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "toolbar-item-container": "../toolbar-item-container/index"
+  }
+}

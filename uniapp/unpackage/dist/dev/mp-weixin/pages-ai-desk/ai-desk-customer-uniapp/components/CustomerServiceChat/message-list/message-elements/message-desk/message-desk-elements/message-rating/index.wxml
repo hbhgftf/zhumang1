@@ -1,0 +1,1 @@
+<rating-star wx:if="{{a}}" bindsendMessage="{{b}}" u-i="f00cfd50-0" bind:__l="__l" u-p="{{c}}"/><rating-number wx:else bindsendMessage="{{d}}" u-i="f00cfd50-1" bind:__l="__l" u-p="{{e||''}}"/>

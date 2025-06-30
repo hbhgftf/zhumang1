@@ -1,0 +1,1 @@
+<view class="message-thinking data-v-dd592a30"><view wx:for="{{a}}" wx:for-item="icon" wx:key="d" class="data-v-dd592a30"><icon wx:if="{{icon.a}}" class="data-v-dd592a30" u-i="{{icon.b}}" bind:__l="__l" u-p="{{icon.c}}"/></view></view>

@@ -1,0 +1,11 @@
+
+.container {
+	margin: 30px;
+}
+.container input {
+	height: 50px;
+	border: 1px solid;
+}
+.container button {
+	margin-top: 30px;
+}

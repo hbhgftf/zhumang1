@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "message-input-editor": "./message-input-editor-uniapp",
+    "message-input-audio": "./message-input-audio-uniapp",
+    "message-quote": "./message-input-quote/index",
+    "icon": "../../common/Icon"
+  }
+}

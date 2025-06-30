@@ -1,0 +1,186 @@
+
+.container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  position: relative;
+}
+.top-bg {
+  height: 7.5rem;
+  background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+  position: relative;
+  overflow: hidden;
+}
+.top-bg::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.75rem;
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.1));
+}
+.form-container {
+  margin: -3.75rem 0.9375rem 0;
+  padding: 1.25rem 0.9375rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 1;
+}
+.form-group {
+  margin-bottom: 1.125rem;
+  position: relative;
+}
+.label {
+  display: block;
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 0.375rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.input {
+  width: 90%;
+  height: 2.75rem;
+  padding: 0 0.75rem;
+  background: #f8f9fa;
+  border: 0.0625rem solid #e0e0e0;
+  border-radius: 0.375rem;
+  font-size: 0.9375rem;
+  color: #333;
+  transition: all 0.3s ease;
+}
+.input:focus {
+  border-color: #1a237e;
+  background: #fff;
+  box-shadow: 0 0 0 0.125rem rgba(26, 35, 126, 0.1);
+}
+.input::-webkit-input-placeholder {
+  color: #999;
+}
+.input::placeholder {
+  color: #999;
+}
+.form-group.volunteer .label {
+  color: #1a237e;
+}
+.form-group.volunteer .input {
+  background: #fff;
+}
+
+/* 保存按钮容器 */
+.button-container {
+  padding: 1.25rem 0.9375rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 -0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+.save-btn {
+  width: 100%;
+  height: 2.75rem;
+  background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 1.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: none;
+}
+.save-btn:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+/* 动画效果 */
+@keyframes slideUp {
+from {
+    opacity: 0;
+    transform: translateY(0.625rem);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+.form-group {
+  animation: slideUp 0.3s ease forwards;
+  opacity: 0;
+}
+.form-group:nth-child(1) { animation-delay: 0.1s;
+}
+.form-group:nth-child(2) { animation-delay: 0.2s;
+}
+.form-group:nth-child(3) { animation-delay: 0.3s;
+}
+.form-group:nth-child(4) { animation-delay: 0.4s;
+}
+.form-group:nth-child(5) { animation-delay: 0.5s;
+}
+.form-group:nth-child(6) { animation-delay: 0.6s;
+}
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+.container {
+    background-color: #121212;
+}
+.form-container {
+    background-color: #1e1e1e;
+}
+.label {
+    color: #e0e0e0;
+}
+.input {
+    background: #2d2d2d;
+    border-color: #404040;
+    color: #e0e0e0;
+}
+.input:focus {
+    border-color: #7986cb;
+    background: #2d2d2d;
+    box-shadow: 0 0 0 0.125rem rgba(121, 134, 203, 0.2);
+}
+.input::-webkit-input-placeholder {
+    color: #666;
+}
+.input::placeholder {
+    color: #666;
+}
+.form-group.volunteer {
+    background: #1a1a1a;
+}
+.form-group.volunteer .label {
+    color: #7986cb;
+}
+.button-container {
+    background: #1e1e1e;
+}
+}
+
+/* 无障碍增强 */
+.input:focus {
+  outline: none;
+}
+.save-btn:focus {
+  outline: 0.125rem solid #7986cb;
+  outline-offset: 0.0625rem;
+}
+
+/* 错误状态 */
+.input.error {
+  border-color: #f44336;
+  background: #fff5f5;
+}
+.error-message {
+  font-size: 0.75rem;
+  color: #f44336;
+  margin-top: 0.25rem;
+}

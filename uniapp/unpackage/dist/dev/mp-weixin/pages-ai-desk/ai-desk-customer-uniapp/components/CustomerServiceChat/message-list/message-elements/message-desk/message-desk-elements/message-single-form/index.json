@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "form-branch": "./form-branch",
+    "form-input": "./form-input"
+  }
+}

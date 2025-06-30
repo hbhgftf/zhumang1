@@ -1,0 +1,1 @@
+<view class="message-form"><branch-pc wx:if="{{b}}" bindinputClick="{{a}}" u-i="c987159e-0" bind:__l="__l" u-p="{{b}}"/></view>

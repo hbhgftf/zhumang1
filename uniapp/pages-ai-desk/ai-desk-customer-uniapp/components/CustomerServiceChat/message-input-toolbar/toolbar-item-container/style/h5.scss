@@ -1,0 +1,20 @@
+.toolbar-item-container-h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right:15px;
+  &-title {
+    margin-top:5px;
+  }
+  &-icon{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 10px;
+  }
+  &-dialog {
+    position: static !important;
+    width: 100%;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,119 @@
+
+.container[data-v-059a76ff] {
+  min-height: 100vh;
+  background: #fff;
+}
+.header[data-v-059a76ff] {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.03125rem solid #eee;
+}
+.back-btn[data-v-059a76ff] {
+  padding: 0.625rem;
+  margin-right: 0.625rem;
+}
+.back-icon[data-v-059a76ff] {
+  font-size: 1.25rem;
+  color: #333;
+}
+.title[data-v-059a76ff] {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #333;
+}
+.content[data-v-059a76ff] {
+  padding: 0.9375rem;
+}
+.cover-image[data-v-059a76ff] {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.9375rem;
+}
+.policy-header[data-v-059a76ff] {
+  margin-bottom: 1.25rem;
+}
+.policy-title[data-v-059a76ff] {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+}
+.meta-info[data-v-059a76ff] {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.region[data-v-059a76ff] {
+  margin-left: 0.625rem;
+}
+.tags[data-v-059a76ff] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tag[data-v-059a76ff] {
+  background: #FFE7BA;
+  color: #FA8C16;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+.policy-content[data-v-059a76ff] {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+.loading[data-v-059a76ff] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.875rem 0;
+}
+.loading-icon[data-v-059a76ff] {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.3125rem;
+}
+.error-container[data-v-059a76ff] {
+  text-align: center;
+  padding: 1.875rem 0;
+}
+.error-icon[data-v-059a76ff] {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 0.625rem;
+}
+.error-text[data-v-059a76ff] {
+  color: #666;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.retry-btn[data-v-059a76ff] {
+  background: #FA8C16;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+.favorite-btn[data-v-059a76ff] {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #FFD700;
+  margin-left: 0.625rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.favorite-btn.active[data-v-059a76ff] {
+  color: #FFD700;
+}

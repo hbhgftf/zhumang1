@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "message-rating": "./message-rating/index",
+    "message-branch": "./message-branch",
+    "message-form": "./message-single-form/index",
+    "message-i-m-robot-welcome": "./message-robot-welcome",
+    "message-product-card": "./message-product-card",
+    "message-rich-text": "./message-rich-text",
+    "message-stream": "./message-stream",
+    "message-multi-branch": "./message-multi-branch/index",
+    "message-multi-form": "./message-multi-form/index",
+    "message-concurrency-limit": "./message-concurrency-limit",
+    "message-order": "./message-order"
+  }
+}

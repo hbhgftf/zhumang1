@@ -1,0 +1,40 @@
+{
+  "hash": "e3e3a8a3",
+  "configHash": "513518a7",
+  "lockfileHash": "a3078c9e",
+  "browserHash": "6e275282",
+  "optimized": {
+    "@tencentcloud/chat-uikit-engine": {
+      "src": "../../../../../node_modules/@tencentcloud/chat-uikit-engine/index.js",
+      "file": "@tencentcloud_chat-uikit-engine.js",
+      "fileHash": "dedbd1fc",
+      "needsInterop": false
+    },
+    "@tencentcloud/tui-core": {
+      "src": "../../../../../node_modules/@tencentcloud/tui-core/index.js",
+      "file": "@tencentcloud_tui-core.js",
+      "fileHash": "aed29086",
+      "needsInterop": false
+    },
+    "lodash": {
+      "src": "../../../../../node_modules/lodash/lodash.js",
+      "file": "lodash.js",
+      "fileHash": "d50d3244",
+      "needsInterop": true
+    },
+    "@tencentcloud/universal-api": {
+      "src": "../../../../../node_modules/@tencentcloud/universal-api/index.js",
+      "file": "@tencentcloud_universal-api.js",
+      "fileHash": "17139161",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-6QHDUI5A": {
+      "file": "chunk-6QHDUI5A.js"
+    },
+    "chunk-LQ2VYIYD": {
+      "file": "chunk-LQ2VYIYD.js"
+    }
+  }
+}

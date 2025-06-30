@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="message-form"><view class="message-form"><form-branch wx:if="{{c}}" bindinputClick="{{b}}" u-i="3c49e224-0" bind:__l="__l" u-p="{{c}}"/></view></view><view wx:else class="message-form"><form-input wx:if="{{e}}" bindinputSubmit="{{d}}" u-i="3c49e224-1" bind:__l="__l" u-p="{{e}}"/></view>

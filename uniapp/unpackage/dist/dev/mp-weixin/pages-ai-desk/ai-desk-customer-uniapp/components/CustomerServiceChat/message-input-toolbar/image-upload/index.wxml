@@ -1,0 +1,1 @@
+<toolbar-item-container wx:if="{{b}}" class="data-v-1218f204" bindonIconClick="{{a}}" u-i="1218f204-0" bind:__l="__l" u-p="{{b}}"></toolbar-item-container>

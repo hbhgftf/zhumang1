@@ -1,0 +1,1 @@
+{"version":3,"file":"adapter-vue.js","sources":["pages-ai-desk/ai-desk-customer-uniapp/adapter-vue.ts"],"sourcesContent":["import Vue from 'vue';\nimport * as VueUni from './adapter-vue-uniapp';\n\nlet vue: any = VueUni;\n\nexport default vue as typeof Vue;\n"],"names":["VueUni"],"mappings":";;AAGA,IAAI,MAAWA,kDAAAA;;"}

@@ -1,0 +1,170 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/common/core-functionality",
+			"style" : 
+			{
+				"navigationBarTitleText" : "核心功能"
+			}
+		},
+		{
+			"path" : "pages/volunteer/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "志愿者"
+			}
+		},
+		
+		{
+			"path" : "pages/volunteer/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "成为志愿者"
+			}
+		},
+		{
+			"path" : "pages/user/profile",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/policy/policy",
+			"style": {
+				"navigationBarTitleText": "政策查询",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/policy/detail",
+			"style": {
+				"navigationBarTitleText": "政策详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/basicInfo/basicInfo",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		},
+		{
+			"path": "pages/video-call/caller",
+			"style": {
+				"navigationBarTitleText": "视频协助"
+			}
+		},
+		{
+			"path": "pages/travel/travel-appointment/travel-appointment",
+			"style": {
+				"navigationBarTitleText": "出行预约"
+			}
+		},
+		{
+			"path": "pages/admin/index",
+			"style": {
+				"navigationBarTitleText": "管理后台",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/policy/favorites",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/common/faq",
+			"style": {
+				"navigationBarTitleText": "全部常见问题"
+			}
+		},
+		{
+			"path": "pages/common/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/common/feedback",
+			"style": {
+				"navigationBarTitleText": "我要反馈"
+			}
+		},
+		{
+			"path": "pages/debug/debug",
+			"style": {
+				"navigationBarTitleText": "调试工具"
+			}
+		},
+		{
+			"path": "pages/debug/notification-test",
+			"style": {
+				"navigationBarTitleText": "通知功能测试"
+			}
+		},
+		{
+			"path": "pages/notification/center",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"navigationStyle": "custom"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/shouye.png",
+                "selectedIconPath": "static/shouye-sel.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/common/core-functionality",
+                "iconPath": "static/kecheng .png",
+                "selectedIconPath": "static/kecheng-sel.png",
+                "text": "帮助我"
+            },
+            {
+                "pagePath": "pages/volunteer/index",
+                "iconPath": "static/xuanze.png",
+                "selectedIconPath": "static/xuanze-sel.png",
+                "text": "志愿者"
+            },
+            {
+                "pagePath": "pages/user/profile",
+                "iconPath": "static/wode.png",
+                "selectedIconPath": "static/wode-sel .png",
+                "text": "我的"
+            }
+		]
+	},
+	"subPackages": [{
+		"root": "pages-ai-desk",
+		"pages": [{
+			"path": "index/index",
+			"style": {
+				"navigationBarTitleText": "智能客服",
+				"navigationStyle": "default"
+			}
+		}]
+	}],
+	"uniIdRouter": {}
+}

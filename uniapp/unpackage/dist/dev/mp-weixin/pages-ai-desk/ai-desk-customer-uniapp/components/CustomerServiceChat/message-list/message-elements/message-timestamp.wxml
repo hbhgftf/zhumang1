@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="message-timestamp data-v-7a869af6">{{b}}</view>

@@ -1,0 +1,1 @@
+<view class="container"><input type="text" placeholder="{{a}}" value="{{b}}" bindinput="{{c}}"/><text hidden="{{!e}}"> your userID: {{d}}</text><button hidden="{{!f}}" bindtap="{{g}}"> Login </button><button hidden="{{!h}}" bindtap="{{i}}"> start call </button></view>

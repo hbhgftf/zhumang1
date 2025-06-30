@@ -1,0 +1,119 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.message-stream.data-v-e9ed9752 {
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  white-space: normal;
+  font-size: 14px;
+}
+.blinking-cursor.data-v-e9ed9752 {
+  animation: blink-e9ed9752 0.8s step-end infinite;
+  color: #000;
+}
+@keyframes blink-e9ed9752 {
+from, to {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+}
+.message-marked.data-v-e9ed9752 {
+  overflow: hidden;
+  word-break: break-word;
+  white-space: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular;
+}
+.message-marked .message-marked_code-container.data-v-e9ed9752 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 9px;
+  margin: 0 0 10px;
+  padding: 1em;
+  overflow: hidden;
+}
+.message-marked .message-marked_code-header.data-v-e9ed9752 {
+  display: flex;
+  justify-content: space-between;
+}
+.message-marked .message-marked_code-content.data-v-e9ed9752 {
+  overflow: auto;
+}
+.message-marked body.data-v-e9ed9752, .message-marked div.data-v-e9ed9752, .message-marked ul.data-v-e9ed9752, .message-marked ol.data-v-e9ed9752, .message-marked dt.data-v-e9ed9752, .message-marked dd.data-v-e9ed9752, .message-marked li.data-v-e9ed9752, .message-marked dl.data-v-e9ed9752, .message-marked h1.data-v-e9ed9752, .message-marked h2.data-v-e9ed9752, .message-marked h3.data-v-e9ed9752, .message-marked h4.data-v-e9ed9752, .message-marked p.data-v-e9ed9752 {
+  margin: 0 0 1em;
+}
+.message-marked ul.data-v-e9ed9752, .message-marked ol.data-v-e9ed9752, .message-marked li.data-v-e9ed9752 {
+  list-style: disc;
+  list-style-type: disc;
+}
+.message-marked ul.data-v-e9ed9752, .message-marked ol.data-v-e9ed9752 {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.message-marked li.data-v-e9ed9752 {
+  padding: 0 0 5px;
+  margin: 0;
+}
+.message-marked img.data-v-e9ed9752 {
+  overflow: hidden;
+  object-fit: contain;
+  max-width: 100%;
+}
+.message-marked a.data-v-e9ed9752 {
+  color: #0052d9;
+  cursor: pointer;
+}
+.markdown-image-previewer.data-v-e9ed9752 {
+  position: fixed;
+  z-index: 101;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.markdown-image.data-v-e9ed9752 {
+  max-width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}

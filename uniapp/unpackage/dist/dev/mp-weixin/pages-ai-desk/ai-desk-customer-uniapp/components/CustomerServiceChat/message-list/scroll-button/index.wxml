@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="scroll-button data-v-063c826e" bindtap="{{d}}"><icon wx:if="{{b}}" class="data-v-063c826e" u-i="063c826e-0" bind:__l="__l" u-p="{{b}}"/><view class="scroll-button-text data-v-063c826e">{{c}}</view></view>

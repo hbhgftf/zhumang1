@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon": "../customer-icon",
+    "input-mobile": "./component-mobile/input-mobile",
+    "radio-mobile": "./component-mobile/radios-mobile",
+    "form-popup": "./component-mobile/form-popup"
+  }
+}

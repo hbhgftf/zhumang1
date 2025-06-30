@@ -1,0 +1,1 @@
+<view><form-mobile wx:if="{{c}}" bindsendMessage="{{a}}" bindshowFormPopup="{{b}}" u-i="f912f25a-0" bind:__l="__l" u-p="{{c}}"/></view>

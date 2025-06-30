@@ -1,0 +1,1 @@
+<view class="revoke data-v-86ce1023"><label wx:if="{{a}}" class="data-v-86ce1023">{{b}}</label><label wx:elif="{{c}}" class="data-v-86ce1023">{{d}}</label><label wx:else class="data-v-86ce1023">{{e}}</label><label class="data-v-86ce1023">{{f}}</label><label wx:if="{{g}}" class="edit data-v-86ce1023" bindtap="{{i}}">{{h}}</label></view>

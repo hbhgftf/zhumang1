@@ -1,0 +1,1 @@
+<view class="{{['data-v-e586cf4f', 'toolbar-button', d]}}" bindtap="{{e}}"><icon wx:if="{{a}}" class="toolbar-button-icon data-v-e586cf4f" u-i="e586cf4f-0" bind:__l="__l" u-p="{{b}}"/><view class="toolbar-button-text data-v-e586cf4f">{{c}}</view></view>

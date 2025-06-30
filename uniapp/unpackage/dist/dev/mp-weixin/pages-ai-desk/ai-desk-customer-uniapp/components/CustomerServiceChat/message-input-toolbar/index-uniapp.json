@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "image-upload": "./image-upload/index",
+    "video-upload": "./video-upload/index",
+    "emoji-picker-dialog": "./emoji-picker/emoji-picker-dialog"
+  }
+}

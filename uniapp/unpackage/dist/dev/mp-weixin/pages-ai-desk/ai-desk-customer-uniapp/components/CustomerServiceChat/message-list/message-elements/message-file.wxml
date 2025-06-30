@@ -1,0 +1,1 @@
+<view class="{{['data-v-8f99a2a7', 'file-message-montainer', d]}}" title="{{e}}" bindtap="{{f}}"><icon wx:if="{{a}}" class="file-icon data-v-8f99a2a7" u-i="8f99a2a7-0" bind:__l="__l" u-p="{{a}}"/><view class="data-v-8f99a2a7"><view class="data-v-8f99a2a7">{{b}}</view><view class="data-v-8f99a2a7">{{c}}</view></view></view>

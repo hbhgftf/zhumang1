@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon": "../../common/Icon",
+    "toolbar-button-human-service": "./toolbar-button-human-service",
+    "toolbar-button-service-rating": "./toolbar-button-service-rating",
+    "toolbar-button-end-human-service": "./toolbar-button-end-human-service"
+  }
+}

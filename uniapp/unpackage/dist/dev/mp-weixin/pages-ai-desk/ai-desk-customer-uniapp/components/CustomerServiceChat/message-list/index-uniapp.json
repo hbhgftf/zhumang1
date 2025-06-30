@@ -1,0 +1,25 @@
+{
+  "component": true,
+  "usingComponents": {
+    "simple-message-list": "./message-elements/simple-message-list/index",
+    "message-text": "./message-elements/message-text",
+    "message-image": "./message-elements/message-image-uniapp",
+    "message-audio": "./message-elements/message-audio-uniapp",
+    "message-record": "./message-elements/message-record/index",
+    "message-file": "./message-elements/message-file",
+    "message-face": "./message-elements/message-face",
+    "message-custom": "./message-elements/message-custom",
+    "message-bubble": "./message-elements/message-bubble-uniapp",
+    "message-location": "./message-elements/message-location",
+    "message-timestamp": "./message-elements/message-timestamp",
+    "message-video": "./message-elements/message-video-uniapp",
+    "message-tool": "./message-tool/index-uniapp",
+    "message-revoked": "./message-tool/message-revoked",
+    "message-plugin": "./message-elements/message-desk/message-plugin-uniapp",
+    "message-thinking": "./message-elements/message-thinking",
+    "scroll-button": "./scroll-button/index",
+    "dialog": "../../common/Dialog/index",
+    "drawer": "../../common/Drawer/index",
+    "progress-message": "../../common/ProgressMessage/index"
+  }
+}

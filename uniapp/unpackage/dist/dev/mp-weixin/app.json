@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/course",
+    "pages/index/elective",
+    "pages/index/volunteer-register",
+    "pages/index/mine",
+    "pages/test-auth/test-auth",
+    "pages/policy/policy",
+    "pages/policy/detail",
+    "pages/basicInfo/basicInfo",
+    "pages/index/spxz/spxz"
+  ],
+  "subPackages": [
+    {
+      "root": "pages-ai-desk",
+      "pages": [
+        "index/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/shouye.png",
+        "selectedIconPath": "static/shouye-sel.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/course",
+        "iconPath": "static/kecheng .png",
+        "selectedIconPath": "static/kecheng-sel.png",
+        "text": "帮助我"
+      },
+      {
+        "pagePath": "pages/index/elective",
+        "iconPath": "static/xuanze.png",
+        "selectedIconPath": "static/xuanze-sel.png",
+        "text": "志愿者"
+      },
+      {
+        "pagePath": "pages/index/mine",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/wode-sel .png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userProfile": {
+      "desc": "完善资料"
+    }
+  },
+  "usingComponents": {}
+}

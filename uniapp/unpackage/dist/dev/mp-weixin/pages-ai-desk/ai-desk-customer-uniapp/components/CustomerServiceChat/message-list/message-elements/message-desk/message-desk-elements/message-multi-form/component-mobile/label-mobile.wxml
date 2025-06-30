@@ -1,0 +1,1 @@
+<view class="form-label">{{a}} <view wx:if="{{b}}" style="color:red">  * </view></view>

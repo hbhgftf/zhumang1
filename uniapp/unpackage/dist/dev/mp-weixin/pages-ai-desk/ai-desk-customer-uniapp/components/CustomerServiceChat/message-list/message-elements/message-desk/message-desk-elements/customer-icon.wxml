@@ -1,0 +1,1 @@
+<view class="common-icon-container data-v-488ba04c"><image wx:if="{{a}}" class="common-icon data-v-488ba04c" src="{{b}}" style="{{'width:' + c + ';' + ('height:' + d)}}"/><image wx:else class="common-icon data-v-488ba04c" src="{{e}}" style="{{'width:' + f + ';' + ('height:' + g)}}"></image></view>

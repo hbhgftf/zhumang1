@@ -1,0 +1,1 @@
+<view hidden="{{!b}}" class="{{['data-v-f016b86f', 'message-label', c && 'unread']}}"><label class="data-v-f016b86f">{{a}}</label></view>

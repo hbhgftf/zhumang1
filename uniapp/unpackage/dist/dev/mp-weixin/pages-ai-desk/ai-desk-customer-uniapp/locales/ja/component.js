@@ -1,0 +1,10 @@
+"use strict";
+const Component = {
+  "图片 url 不存在": "画像のURLが存在しません",
+  "暂不支持下载此类型图片": "このタイプの画像のダウンロードは現在サポートされていません",
+  "大图提取中": "大きな画像を処理中です",
+  "已保存至相册": "アルバムに保存されました",
+  "图片下载失败": "画像のダウンロードに失敗しました"
+};
+exports.Component = Component;
+//# sourceMappingURL=../../../../../.sourcemap/mp-weixin/pages-ai-desk/ai-desk-customer-uniapp/locales/ja/component.js.map

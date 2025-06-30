@@ -1,0 +1,50 @@
+{
+  "name": "@tencentcloud/ai-desk-customer-uniapp",
+  "version": "1.4.0",
+  "description": "uni-app Vue UIKit for AI Desk",
+  "main": "index",
+  "keywords": [
+    "customer service",
+    "ai",
+    "chatbot",
+    "vue",
+    "uniapp",
+    "tencentcloud",
+    "智能客服",
+    "智能机器人",
+    "deepseek"
+  ],
+  "scripts": {
+    "sync": "node ./script/fileCopy.js",
+    "version": "node ./script/syncVersion.js",
+    "publish:vue": "cd ../tui-customer-service-plugin-vue && ls && npm publish --access public",
+    "publish:uniapp": "cd ../tui-customer-service-plugin-uniapp && ls && npm publish --access public"
+  },
+  "dependencies": {
+    "@tencentcloud/chat-uikit-engine": "^2.4.2",
+    "@tencentcloud/tui-core": "^2.4.0",
+    "@tencentcloud/tui-emoji-plugin": "latest",
+    "@tencentcloud/universal-api": "^2.4.0",
+    "@tiptap/core": "2.0.0-beta.220",
+    "@tiptap/extension-document": "2.0.0-beta.220",
+    "@tiptap/extension-image": "2.0.0-beta.220",
+    "@tiptap/extension-mention": "2.0.0-beta.220",
+    "@tiptap/extension-paragraph": "2.0.0-beta.220",
+    "@tiptap/extension-placeholder": "2.0.0-beta.220",
+    "@tiptap/extension-text": "2.0.0-beta.220",
+    "@tiptap/pm": "2.0.0-beta.220",
+    "@tiptap/suggestion": "2.0.0-beta.220",
+    "@types/lodash": "^4.14.202",
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "mp-html": "^2.5.0",
+    "vue-clipboard3": "2.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "",
+  "license": "ISC"
+}
